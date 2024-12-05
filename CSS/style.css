@@ -1,0 +1,136 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* التصميم العام */
+.crud {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.head h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #aaa;
+}
+
+/* تنسيق المدخلات */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputs input {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background: #111;
+    color: #fff;
+}
+
+.inputs input:focus {
+    border-color: #0f0;
+    outline: none;
+    transition: 0.3s;
+}
+
+.price {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.price input {
+    flex: 1;
+}
+
+#total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fefefe;
+    border-radius: 5px;
+}
+
+/* تنسيق الأزرار */
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #004;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0a0;
+}
+
+/* البحث */
+.searchBlock {
+    margin-top: 20px;
+}
+
+.searchBlock input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background: #111;
+    color: #fff;
+}
+
+.btnSearch {
+    display: flex;
+    gap: 15px;
+}
+
+.btnSearch button {
+    flex: 1;
+}
+table{
+    width: 100%;
+    text-align: center;
+
+}
+table th {
+    text-transform: uppercase;
+}
+th , td {
+    padding: 5px;
+}
